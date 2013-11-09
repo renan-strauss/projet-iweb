@@ -1,0 +1,12 @@
+html,body{height: 135%;}
+
+.im1 {
+	float:left;
+	margin: 1%;
+
+} 
+.c1{
+	display: block; 
+	margin: 0 auto; 
+	margin-top: 3%;
+}

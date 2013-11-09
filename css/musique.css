@@ -1,0 +1,22 @@
+html,body{ height:150%; }
+
+#artistes {
+	margin-left:7%;
+	margin-right:3%;
+}
+#artistes li {
+	display:inline-block;
+}
+
+.artiste:target {
+	background: #DDD; 
+	border: 1px solid #000; 
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.disco {
+	margin-left:3%;
+}
+.disco li {
+	list-style-type:square;
+}

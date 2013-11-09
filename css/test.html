@@ -1,0 +1,52 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+	<head>
+		<title>Essai pratique de la pseudo-classe target</title>
+
+			<meta content="text/html; charset=ISO-8859-15" http-equiv="content-type" />
+			<meta name="Author" content="Geoffrey Crofte, CreativeJuiz" />
+			<meta http-equiv="Content-Language" content="fr" />	
+			
+			<style text="text/css">
+			a { 
+				display: block; 
+				margin-bottom: 20px;
+			}
+			
+			.blocReponse {
+				visibility:hidden;
+			}
+			.blocReponse:target {
+				visibility:visible;
+				background: #DDD; 
+				border: 1px solid #000; 
+				margin-top: 30px;
+				padding-left: 20px;
+			}
+			</style>
+	</head>
+
+	<body>
+	
+		<a href="#faire-lien">Comment faire un lien ?</a>
+		<a href="#q2">Question 2 de notre FAQ ?</a>
+		<a href="#q3">Question 3 de notre FAQ ?</a>
+		
+		
+		<div id="faire-lien" class="blocReponse"> 
+			<p class="question">Comment faire un lien ?</p> 
+			<p class="reponse">La réponse à la question...</p> 
+		</div>
+		
+		<div id="q2" class="blocReponse"> 
+			<p class="question">Question 2 de notre FAQ ?</p> 
+			<p class="reponse">La réponse à la question...</p> 
+		</div>
+		
+		<div id="q3" class="blocReponse"> 
+			<p class="question">Question 3 de notre FAQ ?</p> 
+			<p class="reponse">La réponse à la question...</p> 
+		</div>
+		
+		
+	</body>
+</html>
